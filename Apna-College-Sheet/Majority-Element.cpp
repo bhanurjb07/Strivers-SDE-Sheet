@@ -12,7 +12,7 @@ The majority element is the element that appears more than n/2 times.
 You may assume that the majority element always exists.
 */
 
-/*
+/* [O(n^2)]
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -34,7 +34,7 @@ public:
 };
 */
 
-//OPTIMISED {nlogn + O(n)}
+//OPTIMISED [O(nlog n)]
 /*
 class Solution {
 public:
@@ -59,7 +59,7 @@ public:
 };
 */
 
-//Moor's Voting
+//Moor's Voting [O(n)]
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
